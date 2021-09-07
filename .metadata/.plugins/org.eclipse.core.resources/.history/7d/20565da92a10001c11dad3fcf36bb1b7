@@ -6,12 +6,12 @@ spring.datasource.username=b14a9ee769d5d7
 spring.datasource.password=35fa6898
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
-spring.jpa.generate-ddl=true
+spring.jpa.generate-ddl=false
 logging.level.org.hibernate.SQL=debug
 
 spring.cloud.loadbalancer.ribbon.enabled=false
 
 config.balanceador.test=${BALANCEADOR_TEST: por defecto}
 
-/* mysql://b14a9ee769d5d7:35fa6898@us-cdbr-east-04.cleardb.com/heroku_ad6f8203860b282?reconnect=true
-              usuario      pass           host                    name*/
+// mysql://b14a9ee769d5d7:35fa6898@us-cdbr-east-04.cleardb.com/heroku_ad6f8203860b282?reconnect=true
+//             usuario      pass           host                    name
