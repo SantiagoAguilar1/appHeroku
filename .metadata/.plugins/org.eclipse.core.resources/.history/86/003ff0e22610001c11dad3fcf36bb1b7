@@ -12,3 +12,4 @@ logging.level.org.hibernate.SQL=debug
 spring.cloud.loadbalancer.ribbon.enabled=false
 
 config.balanceador.test=${BALANCEADOR_TEST: por defecto}
+:@us-cdbr-east-04.cleardb.com/?reconnect=true
